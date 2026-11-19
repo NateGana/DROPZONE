@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DROPZONE — Test Your Luck. Grab Your Prize.</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div id="welcome" class="overlay"><div class="hero">
+<h1>DROPZONE</h1><p class="tag">Welcome to the ultimate RNG arcade.</p>
+<p>Step inside, take control of the claw, test your timing, discover rare prizes, and build your ultimate collection.</p>
+<div class="claw-prev"><span></span></div>
+<div class="row"><button class="btn" data-go="play">PLAY NOW</button><button class="btn alt" id="b-how">HOW TO PLAY</button><button class="btn alt" data-go="collection">EXPLORE PRIZES</button><button class="btn alt" data-go="academy">LEARN ABOUT RNG</button></div>
+<small>DROPZONE is a fictional arcade simulation. All gameplay uses virtual points and has no real-money gambling or cash-out functionality. Unofficial fan-made; not affiliated with Rockstar, Sanrio, Nintendo or Pokémon.</small></div></div>
+<header><b class="logo">DROPZONE</b><span>🪙 <b id="t-tokens"></b></span><span>🎟 <b id="t-tickets"></b></span><span>LV <b id="t-level"></b></span><span id="t-name"></span></header>
+<nav id="nav"></nav><main id="view"></main><div id="toast"></div>
+<script defer src="js/utils.js"></script><script defer src="js/data.js"></script><script defer src="js/storage.js"></script>
+<script defer src="js/rng-engine.js"></script><script defer src="js/statistics.js"></script><script defer src="js/collection.js"></script>
+<script defer src="js/claw-machine.js"></script><script defer src="js/tutorial.js"></script><script defer src="js/app.js"></script>
+</body></html>

@@ -1,7 +1,7 @@
 # DROPZONE — Test Your Luck. Grab Your Prize.
 
 
-## Play
+## Play : https://nategana.github.io/DROPZONE/
 Pick a machine, move with LEFT/RIGHT (or ← →, hold to keep moving), line the claw over a prize (estimated grip chance is shown), press DROP (or Space). Each attempt costs tokens; successful grabs go to your collection and give XP and tickets. Use "How to play" for the guided tutorial.
 
 ## RNG
